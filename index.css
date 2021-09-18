@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    width: 30%;
+    background-color: #eee;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+fieldset{
+    border: none;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+form h1{
+    text-align: center;
+}
+ 
+legend{
+    margin-bottom: 5%;
+    width: 100%;
+}
+span{
+    padding: 0px 5px;
+    background-color: rgb(2, 212, 2);
+    border-radius: 50px;
+    margin-right: 2%;
+}
+
+input{
+    width: 90%;
+    background-color: rgb(244, 248, 237);
+    margin: 3%;
+}
+
+ #under_13{
+    width: 10%;
+    margin: 2%
+ }
+ #design{
+    width: 10%;
+    margin: 2%
+ }
+ #development{
+    width: 10%;
+    margin: 2%
+ }
+ #business{
+    width: 10%;
+    margin: 2%
+ }
+
+ .light{
+     /* font-size: 25px; */
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+ }
+ .box{
+     display: flex;
+     flex-direction: row;
+     width: 20%;
+     justify-content: flex-end;
+     align-items: flex-end;
+ }
+
+ textarea{
+     width: 90%;
+     height: 100px;
+     background-color: rgb(244, 248, 237);
+     margin-top: 2%;
+ }
+
+ select{
+    width: 90%;
+    background-color: rgb(244, 248, 237);
+    margin-top: 2%;
+ }
+
+ button{
+    width: 90%;
+    background-color: lawngreen;
+    margin-top: 2%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+
+ }
+
+ .lab{
+     margin-top: 6%;
+ }
